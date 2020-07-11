@@ -1,4 +1,4 @@
-package main.java.Tries;
+package main.java.tries;
 
 public class BinaryTreeNode {
     char data;

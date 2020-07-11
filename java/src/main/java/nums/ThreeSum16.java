@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ThreeSum {
+public class ThreeSum16 {
 
     public static List<List<Integer>> threeSum(int[] arr, int target) {
         if (arr == null) {
@@ -56,6 +56,6 @@ public class ThreeSum {
         arr[4] = -1;
         arr[5] = -4;
         int target = -5;
-        System.out.println(ThreeSum.threeSum(arr, target));
+        System.out.println(ThreeSum16.threeSum(arr, target));
     }
 }
