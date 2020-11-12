@@ -28,7 +28,7 @@ class Solution:
         right = x
         res = 0
         while left <= right:
-            mid = left + ((right - left) >> 1)
+            # mid = left + ((right - left) >> 1)
             mid = left + (right - left) // 2
             if mid == x / mid:
                 return int(mid)
@@ -39,4 +39,4 @@ class Solution:
                 res = mid
         return int(res)
 
-print(Solution().mySqrt(10))
+print(Solution().mySqrt(18))

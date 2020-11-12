@@ -24,7 +24,7 @@ def threeSum(nums):
     return map(list, res)
 
 
-def threeSum1(nums):
+def three_sum1(nums):
     res = []
     if not nums or len(nums) < 3:
         return []
@@ -55,8 +55,8 @@ def threeSum1(nums):
     return res
 
 
-nums = [-1, 0, 1, 2, -1, -4]
-print(threeSum1(nums))
+nums = [-1, 0, 1, 9, -1, 5]
+print(three_sum1(nums))
 
 
 

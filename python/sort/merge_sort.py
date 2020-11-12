@@ -1,3 +1,5 @@
+from time import time
+
 def merge_sort(arr):
     # 归并排序
     # 处理输入值异常
@@ -33,6 +35,8 @@ def merge(left_list, right_list):
 
 
 if __name__ == '__main__':
+    start_time = time()
     arr = [5, 0, 8, 7, 2, 90, 100, 345, 1, 2]
     new_arr = merge_sort(arr)
-    print('new_arr is ', new_arr)
+    end_time = time()
+    print('sorted arr and cost time is {} and {}'.format(new_arr, (end_time - start_time) * 1000))

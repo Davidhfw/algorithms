@@ -65,5 +65,11 @@ class Solution(object):
         self._dfs(node.left, level + 1)
         self._dfs(node.right, level + 1)
 
-
-
+if __name__ == '__main__':
+    root = TreeNode(9)
+    root.left = TreeNode(11)
+    root.right = TreeNode(9)
+    root.right.left = TreeNode(7)
+    root.right.right = TreeNode(0)
+    res = Solution().level_order_bfs(root)
+    print(res)

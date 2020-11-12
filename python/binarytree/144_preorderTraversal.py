@@ -49,8 +49,9 @@ class Solution(object):
 
 
 L = TreeNode(1)
-L.left = None
+L.left = TreeNode(100)
 L.right = TreeNode(2)
 L.right.left = TreeNode(3)
+L.right.right = TreeNode(10)
 
 print(Solution().preorderTraversal2(L))

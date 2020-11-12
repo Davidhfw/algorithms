@@ -43,19 +43,20 @@
 class Solution:
     def firstMissingPositive(self, nums):
         n = len(nums)
-        if 1 not in nums:
+        if 1 not in nums:    # 如果1不在数组中，则直接返回1
             return 1
         for i in range(n):
-            if nums[i] <=0 or nums[i] > n:
+            if nums[i] <=0 or nums[i] > n:   # 将数组中元素小于0或者大于数组长度的元素，标记为1
                 nums[i] = 1
 
         for i in range(n):
-            a = abs(nums[i]) - 1
-            nums[a] = -abs(nums[a])
+            a = abs(nums[i]) - 1     # 下标位置
+            nums[a] = -abs(nums[a])  # 给下标位置处的元素添加负号
 
-        for i in range(n):
+        for i in range(n):           # 找到数组中首次出现的值大于0的位置，返回位置+1
             if nums[i] > 0:
                 return i + 1
+        #如果标记之后，数组元素均为负数，则直接返回数组长度+1作为最小未出现的正数
         return n+1
 
 

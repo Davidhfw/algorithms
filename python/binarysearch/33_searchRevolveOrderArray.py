@@ -39,3 +39,9 @@ class Solution(object):
         return left if nums[left] == target else -1
 
 
+if __name__ == '__main__':
+    target = 0
+    nums = [3, 4, 5, 6, 9, 0, 1, 2]
+    result = Solution().search(nums, target)
+    print(result)
+

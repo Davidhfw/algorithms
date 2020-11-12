@@ -49,12 +49,32 @@ class Solution(object):
                 pre.next = nxt
         return dummy.next
 
+    def insert_sort(self, head):
+        if head is None or head.next is None:
+            return head
+        dummy = ListNode(-1)
+        dummy.next = head
+        pre, cur = head, head.next
+        while cur is not None:
+            tmp = cur.next
+            if pre.val > cur.val:
+                start = dummy
+                while cur.val > start.next.val:
+                    start = start.next
+                pre.next = cur.next
+                cur.next = start.next
+                start.next = cur
+                cur = tmp
+            else:
+                pre, cur = pre.next, cur.next
+        return dummy.next
+
 
 head = ListNode(4)
 head.next = ListNode(2)
 head.next.next = ListNode(1)
 head.next.next.next = ListNode(3)
-res = Solution().insertationSortList(head)
+res = Solution().insert_sort(head)
 while res:
     print(res.val)
     res = res.next

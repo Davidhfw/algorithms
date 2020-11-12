@@ -80,16 +80,27 @@ class Solution(object):
         return True
 
     # 利用最大最小值
-    def isValidBST(self, root):
+    def is_valid_bst(self, root):
         if not root: return True
-        min_val = float('-inf')
-        max_val = float('inf')
-        return self.isBST(root, min_val, max_val)
-
-    def isBST(self, node, min_val, max_val):
-        if not node:
+        def helper(node, min_val=float('-inf'), max_val=float('inf')):
+            if not node:
+                return True
+            val = node.val
+            if min_val >= val >= max_val:
+                return False
+            if not helper(node.left, min_val, val):
+                return False
+            if not helper(node.right, val, max_val):
+                return False
             return True
-        if node.val >= max_val or node.val <= min_val:
-            return False
-        return self.isBST(node.left, min_val, max_val) and self.isBST(node.right, min_val, max_val)
+        return helper(root)
+
+
+if __name__ == '__main__':
+    tree = TreeNode(9)
+    tree.left = TreeNode(5)
+    tree.right = TreeNode(-1)
+    #print(tree)
+    result = Solution().isValidBSTInOrder(tree)
+    print(result)
     
