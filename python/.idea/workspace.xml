@@ -20,30 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="532fdc8c-f212-4ee8-a0e0-09516d3d6a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/linkedlist/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/linkedlist/MiddleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/src/main/java/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/kthlargest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/kthsmallest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/out/production/javanewnew/META-INF/javanewnew.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/main/java/linkedlist/MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/main/java/linkedlist/MergeKLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarytree/verify_postorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarytree/面试题33 二叉搜索树后序遍历序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix/reverse_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrix/revolvMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nums/27_removeElement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer/10_fabci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer/10_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/offer/1_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/102_binarySearchLayerTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/102_binarySearchLayerTraversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarysearch/33_searchRevolveOrderArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarysearch/33_searchRevolveOrderArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarysearch/50_myPow.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarysearch/50_myPow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarysearch/69_sqrt.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarysearch/69_sqrt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarytree/102_binaryTreeLevelOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree/102_binaryTreeLevelOrder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarytree/144_preorderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree/144_preorderTraversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarytree/98_verify_binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree/98_verify_binary_search_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/147_insertationSortList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/147_insertationSortList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/876_middleNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/876_middleNode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nums/15_threeSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/nums/15_threeSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nums/firstMisssingPositive41.py" beforeDir="false" afterPath="$PROJECT_DIR$/nums/firstMisssingPositive41.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort/merge_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trie/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +59,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.kthlargest">
+  <component name="RunManager" selected="Python.verify_postorder">
     <configuration name="102_binaryTreeLevelOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,27 +94,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/144_preorderTraversal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="98_verify_binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binarytree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/98_verify_binary_search_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,13 +144,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="verify_postorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binarytree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/verify_postorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.verify_postorder" />
         <item itemvalue="Python.kthlargest" />
         <item itemvalue="Python.kthsmallest" />
         <item itemvalue="Python.144_preorderTraversal" />
         <item itemvalue="Python.102_binaryTreeLevelOrder" />
-        <item itemvalue="Python.98_verify_binary_search_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -235,37 +221,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="add new file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="738" y="296" width="424" height="480" key="FileChooserDialogImpl" timestamp="1602986924345">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="738" y="296" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1602986924345" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605140179117">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1611804653825">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179117" />
     <state width="1892" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275617" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653825" />
     <state width="1899" height="376" key="GridCell.Tab.0.bottom/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657821" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1605140179115">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1611804653824">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179115" />
     <state width="1892" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653824" />
     <state width="1899" height="376" key="GridCell.Tab.0.center/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657819" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1605140179114">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1611804653823">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179114" />
     <state width="1892" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653823" />
     <state width="1899" height="376" key="GridCell.Tab.0.left/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657818" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1605140179116">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1611804653824">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179116" />
     <state width="1892" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275616" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653824" />
     <state width="1899" height="376" key="GridCell.Tab.0.right/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657820" />
     <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1604928657823">
       <screen x="0" y="23" width="1920" height="982" />
@@ -292,5 +278,9 @@
     </state>
     <state x="434" y="175" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603757784238" />
     <state x="2354" y="175" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603757834127" />
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1611804584134">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state x="625" y="244" width="670" height="676" key="search.everywhere.popup/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804584134" />
   </component>
 </project>
