@@ -21,10 +21,3 @@ def verify_post_order(post_order):
 
 post_order = [1, 3, 2, 6, 5]
 print(verify_post_order(post_order))
-"""
-
-"""
-
-
-
-

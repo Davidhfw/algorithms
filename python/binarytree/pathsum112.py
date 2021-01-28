@@ -57,13 +57,34 @@ class Solution(object):
                 que_node_val.append(now.right.val + temp)
         return False
 
-
+    # 递归
     def has_sum_path_recur(self, root, target):
         if not root:
             return False
         if not root.left and not root.right:
             return target == root.val
         return self.has_sum_path_recur(root.left, target - root.val) or self.has_sum_path_recur(root.right, target - root.val)
+
+    # 回溯法
+    def path_sum_dfs(self, root, target):
+        res, path = [], []
+        def recur(root, target):
+            # 如果节点为空，直接返回
+            if not root: return
+            # 将根节点值加入列表
+            path.append(root.val)
+            # 减去该点的值
+            target -= root.val
+            # 判断和为target并且已经到达叶子节点
+            if target == 0 and not root.left and not root.right:
+                res.append(list(path))
+            # 递归遍历左右子树
+            recur(root.left, target)
+            recur(root.right, target)
+            path.pop()
+        recur(root, target)
+        return res
+
 
 if __name__ == '__main__':
     l = TreeNode(5)
@@ -77,5 +98,7 @@ if __name__ == '__main__':
     l.right.right.right = TreeNode(1)
     res = Solution().has_path_sum(l, 23)
     print(res)
+    res1 = Solution().has_sum_path_recur(l, 22)
+    print(res1)
 
 
