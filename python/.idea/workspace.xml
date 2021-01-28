@@ -19,16 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="532fdc8c-f212-4ee8-a0e0-09516d3d6a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/binarytree/verify_postorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/binarytree/面试题33 二叉搜索树后序遍历序列.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix/reverse_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix/revolvMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nums/27_removeElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offer/10_fabci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offer/10_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offer/1_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="532fdc8c-f212-4ee8-a0e0-09516d3d6a5c" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/dp/48_lengthOfLongestSubstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +49,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.verify_postorder">
-    <configuration name="102_binaryTreeLevelOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.48_lengthOfLongestSubstring">
+    <configuration name="48_lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,32 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binarytree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/102_binaryTreeLevelOrder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="144_preorderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binarytree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/144_preorderTraversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dp/48_lengthOfLongestSubstring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +115,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pathsum112" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binarytree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binarytree/pathsum112.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="verify_postorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.48_lengthOfLongestSubstring" />
+        <item itemvalue="Python.pathsum112" />
         <item itemvalue="Python.verify_postorder" />
         <item itemvalue="Python.kthlargest" />
         <item itemvalue="Python.kthsmallest" />
-        <item itemvalue="Python.144_preorderTraversal" />
-        <item itemvalue="Python.102_binaryTreeLevelOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595152709099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1611808463861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611808463861</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1611818683400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611818683400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,40 +224,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new file" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1611804653825">
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1611824732264">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179117" />
     <state width="1892" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275617" />
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653825" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732264" />
     <state width="1899" height="376" key="GridCell.Tab.0.bottom/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657821" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1611804653824">
+    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1611824732263">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179115" />
     <state width="1892" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653824" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732263" />
     <state width="1899" height="376" key="GridCell.Tab.0.center/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657819" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1611804653823">
+    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1611824732262">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179114" />
     <state width="1892" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653823" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732262" />
     <state width="1899" height="376" key="GridCell.Tab.0.left/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657818" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1611804653824">
+    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1611824732263">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179116" />
     <state width="1892" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275616" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611804653824" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732263" />
     <state width="1899" height="376" key="GridCell.Tab.0.right/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657820" />
     <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1604928657823">
       <screen x="0" y="23" width="1920" height="982" />
@@ -273,11 +280,16 @@
     </state>
     <state width="1899" height="376" key="GridCell.Tab.1.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1604927501493" />
     <state width="1899" height="376" key="GridCell.Tab.1.right/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657823" />
-    <state x="2354" y="175" key="SettingsEditor" timestamp="1603757834127">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="434" y="185" key="SettingsEditor" timestamp="1611808678617">
+      <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state x="434" y="175" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603757784238" />
     <state x="2354" y="175" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603757834127" />
+    <state x="434" y="185" key="SettingsEditor/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611808678617" />
+    <state x="560" y="263" key="Vcs.Push.Dialog.v2" timestamp="1611818695901">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state x="560" y="263" key="Vcs.Push.Dialog.v2/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611818695901" />
     <state x="625" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1611804584134">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
