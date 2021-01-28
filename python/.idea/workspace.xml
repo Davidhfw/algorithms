@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="532fdc8c-f212-4ee8-a0e0-09516d3d6a5c" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/dp/48_lengthOfLongestSubstring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nums/59_max_sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nums/find_continuous_sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp/48_lengthOfLongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp/48_lengthOfLongestSubstring.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="Python.48_lengthOfLongestSubstring">
+  <component name="RunManager" selected="Python.59_max_sliding_window">
     <configuration name="48_lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kthlargest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="59_max_sliding_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nums" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/kthlargest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nums/59_max_sliding_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kthsmallest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_continuous_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nums" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heap/kthsmallest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nums/find_continuous_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.59_max_sliding_window" />
+        <item itemvalue="Python.find_continuous_sequence" />
         <item itemvalue="Python.48_lengthOfLongestSubstring" />
         <item itemvalue="Python.pathsum112" />
         <item itemvalue="Python.verify_postorder" />
-        <item itemvalue="Python.kthlargest" />
-        <item itemvalue="Python.kthsmallest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,37 +230,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1611824732264">
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1611833232956">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179117" />
     <state width="1892" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275617" />
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732264" />
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611833232956" />
     <state width="1899" height="376" key="GridCell.Tab.0.bottom/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657821" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1611824732263">
+    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1611833232955">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179115" />
     <state width="1892" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732263" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611833232955" />
     <state width="1899" height="376" key="GridCell.Tab.0.center/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657819" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1611824732262">
+    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1611833232955">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179114" />
     <state width="1892" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275615" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732262" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611833232955" />
     <state width="1899" height="376" key="GridCell.Tab.0.left/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657818" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1611824732263">
+    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1611833232956">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1605140179116" />
     <state width="1892" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1603240553775" />
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604276275616" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611824732263" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1920.1000/0.-1057.1920.1057@0.23.1920.1000" timestamp="1611833232956" />
     <state width="1899" height="376" key="GridCell.Tab.0.right/0.23.1920.982/0.-1057.1920.1057@0.23.1920.982" timestamp="1604928657820" />
     <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1604928657823">
       <screen x="0" y="23" width="1920" height="982" />
