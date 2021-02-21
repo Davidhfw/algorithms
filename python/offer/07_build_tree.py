@@ -7,6 +7,7 @@ class Solution:
         def recur(root, left, right):
             if left > right:
                 return # 递归终止
+            # root代表根节点的下标值
             node = TreeNode(preorder[root])
             i = dic[preorder[root]]
             node.left = recur(root + 1, left, i - 1)
